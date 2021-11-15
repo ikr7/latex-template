@@ -1,0 +1,24 @@
+\documentclass[twocolumn]{article}
+
+\title{Hello \LaTeX ~World!}
+\date{}
+\author{Kumpei Ikuta}
+
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{booktabs}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+    \input{sections/0_abstract.tex}
+\end{abstract}
+
+\section{Introduction}
+\input{sections/1_introduction.tex}
+
+\bibliographystyle{unsrt}
+\bibliography{references.bib}
+
+\end{document}

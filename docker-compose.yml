@@ -1,0 +1,7 @@
+services:
+  texlive:
+    build: .
+    volumes:
+      - type: bind
+        source: .
+        target: /workdir
