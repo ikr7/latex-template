@@ -1,5 +1,6 @@
 # Template Project for Writing Essays/Papers with LaTeX
 
+
 ## available commands
 
 ### build PDF
@@ -50,3 +51,7 @@ src/figures/
 ```
 
 Keep the .tex file named `fig.tex`. Otherwise the dependency breaks.
+
+## screenshot of compiled PDF
+
+![compiled PDF](https://i.imgur.com/v6Lcy50.png)
